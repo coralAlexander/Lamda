@@ -9,6 +9,8 @@ public class WorkWithStream {
 
         ArrayList<String> list = new ArrayList();
 
+        String str = "Alex";
+
         list.add("Kuku");
 
         list.stream().filter("Kuku"::equals).count();
