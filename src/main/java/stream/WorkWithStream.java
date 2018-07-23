@@ -16,10 +16,8 @@ public class WorkWithStream {
         list.stream().filter("Kuku"::equals).count();
 
         list.forEach((String value) -> System.out.println(value));
-
-
     }
-    
-    
+
+
 
 }
